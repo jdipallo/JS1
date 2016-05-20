@@ -2,4 +2,7 @@
 // this is done with a prompt then alert popups
 
 var name = prompt("What is your name please? ", "name");
-alert("Hello " + name);
+
+if (name.length !=0 ) {
+    alert("Hello " + name);
+}
